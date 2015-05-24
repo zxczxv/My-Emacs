@@ -160,9 +160,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- '(debug-on-quit t)
  '(display-time-mode t)
  '(git-gutter:handled-backends (quote (svn hg git)))
+ '(menu-bar-mode nil)
  '(safe-local-variable-values (quote ((lentic-init . lentic-orgel-org-init))))
  '(session-use-package t nil (session))
  '(sr-speedbar-right-side nil)

@@ -68,12 +68,6 @@
 				       'help-echo "Buffer is read-only"))))
     "] "
 
-    ;; ;; line and column
-    ;; "(" ;; '%02' to set to 2 chars at least; prevents flickering
-    ;; (propertize "%01l" 'face 'font-lock-type-face) ","
-    ;; (propertize "%02c" 'face 'font-lock-type-face)
-    ;; ") "
-
     ;; relative position, size of file
     "["
     (propertize "%p" 'face 'font-lock-constant-face) ;; % above top
@@ -104,10 +98,10 @@
     ;; '(:eval (format "Proj[%s] " (projectile-project-name)))
 
     ;; add the time, with the date and the emacs uptime in the tooltip
-    '(:eval (propertize (format-time-string "%H:%M:%S")
+    '(:eval (propertize (format-time-string "%H:%M")
 			'face 'font-lock-type-face
 			'help-echo
-			(concat (format-time-string "%Y-%02m-%02d %02H:%02M:%02S %Y-%02m-%02d %3a; ")
+			(concat (format-time-string "%Y-%02m-%02d %02H:%02M:%02S; ")
 				(emacs-uptime "Uptime:%hh"))))
 
     ;; show buffer file name

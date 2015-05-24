@@ -24,7 +24,15 @@
 (set-face-background 'hl-line "#0d0f16")
 
 ;; title
-(setq frame-title-format "Shawn@%b")
+;; (setq frame-title-format "Shawn@%b")
+
+
+
+;;在标题栏提示当前位置
+(setq frame-title-format
+      (list "Shawb@"
+	    '(buffer-file-name "%f" (dired-directory dired-directory "%b"))))
+
 
 ;; disable menu-bar
 (menu-bar-mode -1)
