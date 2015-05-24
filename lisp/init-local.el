@@ -59,6 +59,9 @@
 ;关闭自动保存模式
 (setq auto-save-mode nil)
 
+;; F4 to open eshell
+(global-set-key [f4] 'eshell)
+
 
 
 (provide `init-local)
