@@ -2022,7 +2022,7 @@ Run as `tabbar-quit-hook'."
 ;;;; 设置tabbar外观
 ;; 设置默认主题: 字体, 背景和前景颜色，大小
 (set-face-attribute 'tabbar-default nil
-                    :family "Comic Sans MS" ;"Vera Sans YuanTi Mono"
+                    :family "Ubuntu Mono" ;"Vera Sans YuanTi Mono"
                     :background "gray30"
                     :foreground "#dcdccc"
                     :height 0.8
@@ -2031,13 +2031,13 @@ Run as `tabbar-quit-hook'."
 ;; 设置左边按钮外观：外框框边大小和颜色
 (set-face-attribute 'tabbar-button nil
                     :inherit 'tabbar-default
-                    :box '(:line-width 2 :color "gray30")
+                    :box '(:line-width 1 :color "gray30")
                     )
 (set-face-attribute 'tabbar-separator nil
                     :inherit 'tabbar-default
                     :foreground "blue"
                     :background "dark gray"
-                    :box '(:line-width 2 :color "dark gray" :style 'released-button)
+                    :box '(:line-width 1 :color "dark gray" :style 'released-button)
                     )
 ;(setq tabbar-separator-value "§")
 (setq tabbar-separator (list 0.5))

@@ -26,6 +26,9 @@
 ;; title
 (setq frame-title-format "Shawn@%b")
 
+;; disable menu-bar
+(menu-bar-mode -1)
+
 ;;set the cursor as bar and cyan
 (setq-default cursor-type 'bar)
 
