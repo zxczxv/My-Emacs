@@ -15,13 +15,6 @@
 ;; -------------------- line count --------------------
 
 
-;;在标题栏提示当前位置
-(setq frame-title-format
-      (list "[" '(:eval (projectile-project-name)) "]" 
-	    " ψωETωψ ◎ "
-	    '(buffer-file-name "%f" (dired-directory dired-directory "%b"))))
-
-
 (setq show-buffer-file-name nil)
 (defun toggle-show-buffer-file-name ()
   "toggle show or hide buffer full file name in mode line"
@@ -41,7 +34,7 @@
         		'help-echo (format "%s" (buffer-file-name))
                 ))
 
-    
+
     ;; line and column
     "(" ;; '%02' to set to 2 chars at least; prevents flickering
     "%02l" "," "%01c"
@@ -83,10 +76,10 @@
     ;; the current major mode for the buffer.
     "["
     ;; mode-line-modes ;; too much infomation
-    
+
     '(:eval (propertize "%m" 'face 'font-lock-string-face
-    			'help-echo buffer-file-coding-system))
-    
+                        'help-echo buffer-file-coding-system))
+
     "] "
 
     '(:eval (when vc-mode
