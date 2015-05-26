@@ -23,10 +23,16 @@
 (global-hl-line-mode 1)
 (set-face-background 'hl-line "#0d0f16")
 
+
 ;;  title
+
 (setq frame-title-format
       (list "Shawb@"
 	    '(buffer-file-name "%f" (dired-directory dired-directory "%b"))))
+
+
+
+
 
 ;; disable menu-bar
 (menu-bar-mode -1)
@@ -38,6 +44,7 @@
 (setq default-frame-alist
       '((height . 50) (width . 80)))
 (set-frame-position (selected-frame) 900 50)
+
 
 ;; gdb shortcut key
 (global-set-key [(f7)] 'gud-next)

@@ -109,6 +109,9 @@
 (require 'init-clipboard)
 (require 'init-company)
 
+
+(require 'init-local)
+
 (require 'init-sr-speedbar)
 ;;(require 'init-minimap)
 (require 'init-tabbar)
@@ -182,4 +185,7 @@
 (put 'erase-buffer 'disabled nil)
 
 
+
 (require 'init-local)
+
+
