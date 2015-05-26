@@ -57,7 +57,8 @@
 (require 'init-frame-hooks)
 ;; any file use flyspell should be initialized after init-spelling.el
 ;; actually, I don't know which major-mode use flyspell.
-(require 'init-spelling)
+
+;;(require 'init-spelling)
 (require 'init-xterm)
 (require 'init-gui-frames)
 (require 'init-ido)
@@ -73,19 +74,20 @@
 (require 'init-git)
 (require 'init-crontab)
 (require 'init-markdown)
-(require 'init-erlang)
-(require 'init-javascript)
+;;(require 'init-erlang)
+;;(require 'init-javascript)
 (require 'init-org)
 (require 'init-org-mime)
 (require 'init-css)
 (require 'init-python-mode)
-(require 'init-haskell)
-(require 'init-ruby-mode)
+;;(require 'init-haskell)
+;;(require 'init-ruby-mode)
 (require 'init-lisp)
 (require 'init-elisp)
 (require 'init-yasnippet)
 ;; Use bookmark instead
-(require 'init-zencoding-mode)
+
+;;(require 'init-zencoding-mode)
 (require 'init-cc-mode)
 (require 'init-gud)
 (require 'init-linum-mode)
@@ -97,10 +99,10 @@
 (require 'init-sh)
 (require 'init-ctags)
 (require 'init-ace-jump-mode)
-(require 'init-bbdb)
+;;(require 'init-bbdb)
 (require 'init-gnus)
-(require 'init-lua-mode)
-(require 'init-workgroups2)
+;;(require 'init-lua-mode)
+;;(require 'init-workgroups2)
 (require 'init-term-mode)
 (require 'init-web-mode)
 (require 'init-slime)
@@ -108,20 +110,20 @@
 (require 'init-company)
 (require 'init-local)
 (require 'init-sr-speedbar)
-(require 'init-minimap)
+;;(require 'init-minimap)
 (require 'init-tabbar)
 
-(require 'init-chinese-pyim) ;; cannot be idle-required
+;;(require 'init-chinese-pyim) ;; cannot be idle-required
 ;; need statistics of keyfreq asap
 (require 'init-keyfreq)
-(require 'init-httpd)
+;;(require 'init-httpd)
 
 ;; projectile costs 7% startup time
 
 ;; misc has some crucial tools I need immediately
 (require 'init-misc)
 (require 'init-color-theme)
-(require 'init-emacs-w3m)
+;;(require 'init-emacs-w3m)
 
 ;; {{ idle require other stuff
 (setq idle-require-idle-delay 3)
@@ -172,6 +174,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(linum ((t (:inherit (Blue default)))))
  '(window-numbering-face ((t (:foreground "DeepPink" :underline "DeepPink" :weight bold))) t))
 ;;; Local Variables:
 ;;; no-byte-compile: t
