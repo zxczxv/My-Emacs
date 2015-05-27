@@ -1,0 +1,12 @@
+;;; Automatically generated on Thu May 28 02:53:30 2015
+;;; Invoked by shawn@shawn-Inspiron-7537 using 24.4.1
+(setq-default session-file-alist '(("~/.emacs.d/lisp/init-local.el" 1257 681 1 nil nil 1257 (overwrite-mode)) ("~/Blog/_drafts/2015-04-23-Project WC.md" 278 942 1 nil nil 942 (overwrite-mode)) ("/etc/apt/sources.list" 2855 2857 1 nil nil 2857 (overwrite-mode)) ("~/.profile" 39 368 1 nil nil 697 (overwrite-mode)) ("~/Project/Pintos/src_my/threads/thread.c" 3090 15567 1 nil nil 612 (overwrite-mode)) ("~/Desktop/orgmode.org" 1959 2841 1 nil nil 467 (overwrite-mode))))
+(setq-default file-name-history '("~/.ssh/id_rsa.pub" "/media/shawn/Media/Movie/Captain.America.The.Winter.Soldier.2014.720p.BluRay.x264.DTS-WiKi/Captain.America.The.Winter.Soldier.2014.720p.BluRay.x264.DTS-WiKi_XLSub.ass" "~/.profile" "~/.emacs.d/lisp/init-local.el" "~/Blog/_drafts/2015-04-23-Project WC.md" "~/DataBaseSystems/数据库project/nobench/nobench_data_extra.json" "~/DataBaseSystems/数据库project/nobench/nobench_data.json" "~/DataBaseSystems/数据库project/nobench/README" "/etc/apt/sources.list" "~/Downloads/ubuntu 14.10 install mac theme/教程重要说明及更新链接点击这个文本.txt" "/media/shawn/Academy/backup/.easystroke/actions-0.5.6" "~/Project/Pintos/src_my/threads/thread.h" "~/Project/Pintos/src_my/threads/thread.c" "~/Project/Pintos/src_my/threads/start.S" "~/Desktop/orgmode.org" "~/.bashrc" "~/Tools/Backlight/ledctrl" "~/.emacs.d/init.el"))
+(setq-default search-ring '("wen"))
+(setq-default command-history '((linum-mode (quote toggle))))
+(setq-default kmacro-ring '(("" 0 "%d")))
+(setq-default minibuffer-history '("init-hippie-ex"))
+(setq-default occur-collect-regexp-history '("\\1"))
+(setq-default serial-name-history '("/dev/ttyS0"))
+(setq-default serial-speed-history '("9600" "1200" "2400" "4800" "14400" "19200" "28800" "38400" "57600" "115200"))
+(setq-default smex-history '(linum-mode ag cd 5x5 arp dbx dig))
