@@ -1,4 +1,6 @@
 #name : Image
 #contributor: Peng Deng <dengpeng@gmail.com>
 # --
-![${1:Alt Text}](${2:URL} $3) $0
+![file://../images/${1:picture}]({{ site.url }}/images/${2:picture})
+
+$0
